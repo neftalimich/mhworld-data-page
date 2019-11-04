@@ -53,12 +53,20 @@
                     </button>
                 </div>
             </div>
+            <div class="input-group mb-3">
+                <input id="itemSearchBox" type="text" class="form-control" v-model="itemSearchBox" v-on:keyup.enter="FilterItems()" placeholder="Guiding Lands Material (ALPHA: Working on)">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" v-on:click="FilterItems()">
+                        <i class="fab fa-searchengin"></i>
+                    </button>
+                </div>
+            </div>
             <ul class="list-group">
                 <li v-for="(monster, index) in monstersFiltered" class="list-group-item">
                     <a data-toggle="modal" data-target="#dataModal" v-on:click="SelectMonster(monster)" href="" style="font-weight:500; cursor:pointer;" tabindex="3">
                         {{monster.Name}}
                     </a>
-                    <button class="btn btn-primary btn-sm float-right" data-toggle="modal" data-target="#dataModal" v-on:click="SelectMonster(monster)" tabindex="3">
+                    <button class="btn btn-primary btn-sm float-right" data-toggle="modal" data-target="#dataModal" v-on:click="SelectMonsterDrop(monster)" tabindex="3">
                         DROPS
                     </button>
                     <span class="text-muted float-right mt-1" style="font-size:12px;">
@@ -66,7 +74,6 @@
                     </span>
                 </li>
             </ul>
-            <br />
 
             <!-- Modal -->
             <div class="modal fade" id="dataModal" tabindex="-1" role="dialog" aria-labelledby="dataModalLabel" aria-hidden="true">
@@ -301,7 +308,63 @@
                                 </table>
                             </div>
                             <div v-show="tabActived==3">
-                                <div v-if="dropSelected">
+                                <div v-if="!dropSelected">
+                                    Sorry, there is no data.
+                                    If you want to collaborate send the data by DM to <a href="https://twitter.com/MHWorldBuilder"> MHWorldBuilder</a>.
+                                    Template:<br />
+                                    <code>
+                                        {
+                                        "Id": "dummy",
+                                        "Drops": [
+                                        {
+                                        "Rank": "Low",
+                                        "Carves": [
+                                        {
+                                        "Item": "{0} ",
+                                        "Frecuency": 0
+                                        }
+                                        ],
+                                        "Rewards": [
+                                        {
+                                        "Item": "{0} ",
+                                        "Frecuency": 0
+                                        }
+                                        ],
+                                        "Special": [
+                                        {
+                                        "Condition": "",
+                                        "Items": [ "" ]
+                                        }
+                                        ]
+                                        }
+                                        ],
+                                        "GuidingLands": {
+                                        "Regions": [
+                                        {
+                                        "Name": "",
+                                        "Level": 0,
+                                        "Frecuency": 0,
+                                        "LevelTempered": 0,
+                                        "FrecuencyTempered": 0
+                                        }
+                                        ],
+                                        "Obtenibles": [
+                                        {
+                                        "Item": "{0} ",
+                                        "Frecuency": 0
+                                        }
+                                        ],
+                                        "ObteniblesTempered": [
+                                        {
+                                        "Item": "{0} ",
+                                        "Frecuency": 0
+                                        }
+                                        ]
+                                        }
+                                        }
+                                    </code>
+                                </div>
+                                <div v-else>
                                     <span class="c-pointer" v-bind:class="{'text-muted':dropIndex != index || showGL}" v-for="(drop, index) in dropSelected.Drops" v-on:click="SelectDropIndex(index)">
                                         <i class="fas fa-circle fa-sm "></i>{{drop.Rank}}
                                     </span>
@@ -449,6 +512,8 @@
                     </div>
                 </div>
             </div>
+
+            <br />
         </div>
     </div>
 

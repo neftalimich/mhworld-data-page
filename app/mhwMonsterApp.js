@@ -89,7 +89,12 @@ var app = new Vue({
 			} else {
 				this.dropIndex = 0;
 			}
+			this.tabActived = 0;
 			console.log(this.ecologySelected, this.physicologySelected, this.dropSelected);
+		},
+		SelectMonsterDrop: function (monster) {
+			this.SelectMonster(monster);
+			this.tabActived = 3;
 		},
 		FilterMonsters: function () {
 			const valueSearched = this.searchBox.toLowerCase();
@@ -98,6 +103,28 @@ var app = new Vue({
 				this.monsters.filter(m =>
 					m.Name.toLowerCase().includes(valueSearched) && m.Type.toLowerCase().includes(typeSearched))
 			));
+		},
+		FilterItems: function () {
+			const itemSearched = this.itemSearchBox.toLowerCase();
+			if (itemSearched && itemSearched.length > 3) {
+				this.monstersFiltered = JSON.parse(JSON.stringify(
+					this.monsters.filter(m => {
+						let drop = this.drops.find(d => d.Id === m.Id);
+						if (drop) {
+							if (drop.GuidingLands) {
+								return drop.GuidingLands.Obtenibles.some(o => o.Item.toLowerCase().includes(itemSearched)) || drop.GuidingLands.ObteniblesTempered.some(o => o.Item.toLowerCase().includes(itemSearched));
+							} else {
+								return false;
+							}
+						}
+						else {
+							return false;
+						}
+					})
+				));
+			} else {
+				this.monstersFiltered = JSON.parse(JSON.stringify(this.monsters));
+			}
 		},
 		OrderHitDataBy: function (property) {
 			this.physicologySelected.HitData.sort((a, b) => {

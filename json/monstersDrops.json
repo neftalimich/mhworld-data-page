@@ -133,11 +133,13 @@
       "Obtenibles": [
         {
           "Item": "Dragonvein Solidbone",
-          "Frecuency": 4
+          "Frecuency": 4,
+          "NotOwn": true
         },
         {
           "Item": "Bloodthirsty Glimmerpelt",
-          "Frecuency": 5
+          "Frecuency": 5,
+          "NotOwn": true
         }
       ],
       "ObteniblesTempered": [
@@ -254,7 +256,8 @@
         },
         {
           "Item": "Aurora Crownhorn",
-          "Frecuency": 5
+          "Frecuency": 5,
+          "NotOwn": true
         }
       ],
       "ObteniblesTempered": [
@@ -265,7 +268,8 @@
         },
         {
           "Item": "Tempered Crownhorn",
-          "Frecuency": 5
+          "Frecuency": 5,
+          "NotOwn": true
         },
         {
           "Item": "Great Spiritvein Gem",
