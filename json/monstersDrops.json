@@ -132,17 +132,17 @@
       ],
       "Obtenibles": [
         {
-          "Item": "{0} Dragonvein Solidbone",
+          "Item": "Dragonvein Solidbone",
           "Frecuency": 4
         },
         {
-          "Item": "{0} Bloodthirsty Glimmerpelt",
+          "Item": "Bloodthirsty Glimmerpelt",
           "Frecuency": 5
         }
       ],
       "ObteniblesTempered": [
         {
-          "Item": "{0} ",
+          "Item": "",
           "Frecuency": 0
         }
       ]
