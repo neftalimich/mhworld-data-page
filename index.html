@@ -195,7 +195,21 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-12">
-                                            Base HP: {{physicologySelected.HP}}
+                                            <div v-if="ecologySelected">
+                                                Habitats:
+                                                <span v-for="habitat, index) in ecologySelected.Habitats">
+                                                    {{habitat}}
+                                                    <span v-if="index < ecologySelected.Habitats.length - 1"> - </span>
+                                                </span>
+                                                <br />
+                                                Crowns:
+                                                <img src="images/crown/crown_mini.png" class="pb-2" style="width:16px;height:auto;" />
+                                                {{ecologySelected.Crowns[0]}}cm
+                                                <img src="images/crown/crown_large.png" class="pb-2" style="width:16px;height:auto;" />
+                                                {{ecologySelected.Crowns[1]}}cm
+                                                <img src="images/crown/crown_king.png" class="pb-2" style="width:16px;height:auto;" />
+                                                {{ecologySelected.Crowns[2]}}cm
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -294,68 +308,6 @@
                                     <span class="c-pointer" v-bind:class="{'text-muted':!showGL}" v-on:click="showGL = !showGL">
                                         <i class="fas fa-circle fa-sm"></i>Guiding Lands
                                     </span>
-                                    <div v-show="showGL">
-                                        <table class="table table-striped">
-                                            <thead class="thead-dark">
-                                                <tr>
-                                                    <th colspan="2" class="text-center">Obtenibles</th>
-                                                </tr>
-                                                <tr>
-                                                    <th>Item</th>
-                                                    <th class="w-30">Frecuency</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr v-for="(drop, index) in dropSelected.GuidingLands.Obtenibles">
-                                                    <td>
-                                                        {{drop.Item}}
-                                                    </td>
-                                                    <td>
-                                                        <span v-for="(item, index) in drop.Frecuency">
-                                                            <i class="fas fa-star text-warning"></i>
-                                                        </span>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                        <table class="table table-striped">
-                                            <thead class="thead-dark">
-                                                <tr>
-                                                    <th colspan="2" class="text-center">Obtenibles Tempered</th>
-                                                </tr>
-                                                <tr>
-                                                    <th>Item</th>
-                                                    <th class="w-30">Frecuency</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr v-for="(drop, index) in dropSelected.GuidingLands.ObteniblesTempered">
-                                                    <td>{{drop.Item}}</td>
-                                                    <td>
-                                                        <span v-for="(item, index) in drop.Frecuency">
-                                                            <i class="fas fa-star text-warning"></i>
-                                                        </span>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                        <span v-for="region in dropSelected.GuidingLands.Regions">
-                                            <i class="fas fa-dot-circle fa-sm"></i> Region: {{region.Name}}
-                                            <br />
-                                            - Level: <strong class="text-info">{{region.Level}}</strong>
-                                            - Frecuency:
-                                            <span v-for="(item, index) in region.Frecuency">
-                                                <i class="fas fa-star fa-sm text-info"></i>
-                                            </span>
-                                            <br />
-                                            ∘ Tempered Level: <strong class="text-info">{{region.LevelTempered}}</strong>
-                                            - Frecuency:
-                                            <span v-for="(item, index) in region.FrecuencyTempered">
-                                                <i class="fas fa-star fa-sm text-info"></i>
-                                            </span>
-                                            <br />
-                                        </span>
-                                    </div>
                                     <div v-show="!showGL">
                                         <table class="table table-striped table-sm">
                                             <thead class="thead-dark">
@@ -423,13 +375,76 @@
                                                 <tr v-for="(special, index) in dropSelected.Drops[dropIndex].Special">
                                                     <td>{{special.Condition}}</td>
                                                     <td>
-                                                        <span v-for="drop in special.Items">
-                                                            {{drop}};
+                                                        <span v-for="(item, index) in special.Items">
+                                                            {{monsterSelected.Name}} {{item}}
+                                                            <br v-if="index < special.Items.length - 1" />
                                                         </span>
                                                     </td>
                                                 </tr>
                                             </tbody>
                                         </table>
+                                    </div>
+                                    <div v-show="showGL">
+                                        <table class="table table-striped">
+                                            <thead class="thead-dark">
+                                                <tr>
+                                                    <th colspan="2" class="text-center">Obtenibles</th>
+                                                </tr>
+                                                <tr>
+                                                    <th>Item</th>
+                                                    <th class="w-30">Frecuency</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr v-for="(drop, index) in dropSelected.GuidingLands.Obtenibles">
+                                                    <td>
+                                                        {{drop.Item}}
+                                                    </td>
+                                                    <td>
+                                                        <span v-for="(item, index) in drop.Frecuency">
+                                                            <i class="fas fa-star text-warning"></i>
+                                                        </span>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <table class="table table-striped">
+                                            <thead class="thead-dark">
+                                                <tr>
+                                                    <th colspan="2" class="text-center">Obtenibles Tempered</th>
+                                                </tr>
+                                                <tr>
+                                                    <th>Item</th>
+                                                    <th class="w-30">Frecuency</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr v-for="(drop, index) in dropSelected.GuidingLands.ObteniblesTempered">
+                                                    <td>{{drop.Item}}</td>
+                                                    <td>
+                                                        <span v-for="(item, index) in drop.Frecuency">
+                                                            <i class="fas fa-star text-warning"></i>
+                                                        </span>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <span v-for="region in dropSelected.GuidingLands.Regions">
+                                            <i class="fas fa-dot-circle fa-sm"></i> Region: {{region.Name}}
+                                            <br />
+                                            - Level: <strong class="text-info">{{region.Level}}</strong>
+                                            - Frecuency:
+                                            <span v-for="(item, index) in region.Frecuency">
+                                                <i class="fas fa-star fa-sm text-info"></i>
+                                            </span>
+                                            <br />
+                                            ∘ Tempered Level: <strong class="text-info">{{region.LevelTempered}}</strong>
+                                            - Frecuency:
+                                            <span v-for="(item, index) in region.FrecuencyTempered">
+                                                <i class="fas fa-star fa-sm text-info"></i>
+                                            </span>
+                                            <br />
+                                        </span>
                                     </div>
                                 </div>
                             </div>
