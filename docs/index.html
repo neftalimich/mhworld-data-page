@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MHWorld-Data</title>
+
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="lib/font-awesome/css/all.css" />
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand">MHWorld Data</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark">Monsters</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark">Ammo</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid">
+        <div id="mhwMonsterApp">
+            <h2>Monsters</h2>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" v-model="searchBox" v-on:keyup.enter="FilterMonsters()" autofocus>
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" v-on:click="FilterMonsters()">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+            <ul class="list-group">
+                <li v-for="(monster, index) in monstersFiltered" class="list-group-item">
+                    {{monster.Name}}
+                    <button class="btn btn-primary btn-sm float-right" data-toggle="modal" data-target="#dataModal" v-on:click="SelectMonster(monster)">
+                        DATA
+                    </button>
+                </li>
+            </ul>
+
+            <!-- Modal -->
+            <div class="modal fade" id="dataModal" tabindex="-1" role="dialog" aria-labelledby="dataModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="dataModalLabel" v-if="monsterSelected">{{monsterSelected.Name}}</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <ul class="nav nav-tabs card-header-tabs" style="margin:0px!important; padding-bottom:2px!important;">
+                                <li class="nav-item">
+                                    <a class="nav-link" v-on:click="tabActived=0" v-bind:class="{'active':tabActived==0}" href="#">Hit Data</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" v-on:click="tabActived=1" v-bind:class="{'active':tabActived==1}" href="#">Flinch Data</a>
+                                </li>
+                            </ul>
+                            <div v-show="tabActived==0">
+                                <table class="table table-striped" v-if="monsterSelected">
+                                    <thead>
+                                        <tr>
+                                            <th>
+
+                                            </th>
+                                            <th class="text-center">
+                                                <span class="d-sm-block d-md-block d-lg-block" style="display:none">SEVER</span>
+                                                <span class="d-sm-none d-md-none d-lg-none">S</span>
+                                            </th>
+                                            <th class="text-center">
+                                                <span class="d-sm-block d-md-block d-lg-block" style="display:none">BLUNT</span>
+                                                <span class="d-sm-none d-md-none d-lg-none">B</span>
+                                            </th>
+                                            <th class="text-center">
+                                                <span class="d-sm-block d-md-block d-lg-block" style="display:none">SHOT</span>
+                                                <span class="d-sm-none d-md-none d-lg-none">S</span>
+                                            </th>
+                                            <th class="text-center">
+                                                <img src="images/element/fire-icon.png" style="height:20px;width:auto;" />
+                                            </th>
+                                            <th class="text-center">
+                                                <img src="images/element/water-icon.png" style="height:20px;width:auto;" />
+                                            </th>
+                                            <th class="text-center">
+                                                <img src="images/element/thunder-icon.png" style="height:16px;width:auto;" />
+                                            </th>
+                                            <th class="text-center">
+                                                <img src="images/element/ice-icon.png" style="height:16px;width:auto;" />
+                                            </th>
+                                            <th class="text-center">
+                                                <img src="images/element/dragon-icon.png" style="height:18px;width:auto;" />
+                                            </th>
+                                            <th class="text-center">
+                                                <img src="images/ailment/stun-icon.png" style="height:20px;width:auto;" />
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr v-for="(hit, index) in monsterSelected.HitData">
+                                            <td class="text-left">{{hit.Part}}</td>
+                                            <td class="text-center">{{hit.Sever}}</td>
+                                            <td class="text-center">{{hit.Blunt}}</td>
+                                            <td class="text-center">{{hit.Shot}}</td>
+                                            <td class="text-center">{{hit.Fire}}</td>
+                                            <td class="text-center">{{hit.Water}}</td>
+                                            <td class="text-center">{{hit.Thunder}}</td>
+                                            <td class="text-center">{{hit.Ice}}</td>
+                                            <td class="text-center">{{hit.Dragon}}</td>
+                                            <td class="text-center">{{hit.Stun}}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div v-show="tabActived==1">
+                                <table class="table table-striped" v-if="monsterSelected">
+                                    <thead>
+                                        <tr>
+                                            <th>
+
+                                            </th>
+                                            <th>
+                                                VALUE
+                                            </th>
+                                            <th>
+                                                EXTRACT
+                                            </th>
+                                            <th>
+                                                SEVER
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr v-for="(hit, index) in monsterSelected.FlinchData">
+                                            <td class="text-left">{{hit.Part}}</td>
+                                            <td class="text-center">{{hit.Value}}</td>
+                                            <td class="text-center">{{hit.Extract}}</td>
+                                            <td class="text-center">{{hit.Sever}}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2019 - MHWorldWeb
+        </div>
+    </footer>
+
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="js/site.js" asp-append-version="true"></script>
+
+    <script src="lib/axios/axios.js"></script>
+    <script src="lib/vue/vue.js"></script>
+    <script src="app/monsters.js"></script>
+    <script src="app/mhwMonsterApp.js"></script>
+    <link href="css/monster.css" rel="stylesheet" />
+
+</body>
+</html>

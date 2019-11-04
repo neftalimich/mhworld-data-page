@@ -1,0 +1,436 @@
+[
+  {
+    "Id": "acidicGlavenus",
+    "Crowns": [ 2135.2, 2609.68, 2846.93 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "ancientLeshen",
+    "Crowns": [ 570.43, 728.88, 779.59 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "anjanath",
+    "Crowns": [ 1481.81, 1811.11, 1975.76 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "azureRathalos",
+    "Crowns": [ 1533.8, 1959.85, 2096.19 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "banbaro",
+    "Crowns": [ 2164.36, 2765.57, 2957.95 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "barioth",
+    "Crowns": [ 1888.47, 2413.05, 2580.91 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "barroth",
+    "Crowns": [ 1244.76, 1590.53, 1701.18 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "bazelgeuse",
+    "Crowns": [ 1735.54, 2217.64, 2371.91 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "behemoth",
+    "Crowns": [ 3081.28, 3937.2, 4211.09 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "beotodus",
+    "Crowns": [ 1495.79, 1911.29, 2044.25 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "blackDiablos",
+    "Crowns": [ 1886.62, 2410.69, 2578.39 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "blackveilVaalHazak",
+    "Crowns": [ 1885.86, 2409.71, 2577.34 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "brachydios",
+    "Crowns": [ 1467.5, 1875.13, 2005.58 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "bruteTigrex",
+    "Crowns": [ 1748.88, 2234.68, 2390.14 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "coralPukei",
+    "Crowns": [ 992.21, 1212.7, 1322.94 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "deviljho",
+    "Crowns": [ 1857.44, 2270.2, 2476.58 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "diablos",
+    "Crowns": [ 1886.62, 2410.69, 2578.39 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "ebonyOdogaron",
+    "Crowns": [ 1249.88, 1597.06, 1708.16 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "fulgurAnjanath",
+    "Crowns": [ 1481.81, 1811.11, 1975.76 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "glavenus",
+    "Crowns": [ 2215.35, 2707.65, 2953.8 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "goldRathian",
+    "Crowns": [ 1578.93, 2017.53, 2157.88 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "greatGirros",
+    "Crowns": [ 947.84, 1211.12, 1295.37 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "greatJagras",
+    "Crowns": [ 998.69, 1276.11, 1364.88 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "jyuratodus",
+    "Crowns": [ 1357.84, 1735.02, 1855.71 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "kirin",
+    "Crowns": [ 482.63, 616.7, 659.6 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "kuluYaKu",
+    "Crowns": [ 811.12, 1036.43, 1108.53 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "kulveTaroth",
+    "Crowns": [ 4115.93, 5259.24, 5625.1 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "kushalaDaora",
+    "Crowns": [ 1721.82, 2200.1, 2353.15 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "lavasioth",
+    "Crowns": [ 1617.52, 2066.83, 2210.61 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "legiana",
+    "Crowns": [ 1529.78, 1954.71, 2090.69 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "leshen",
+    "Crowns": [ 494.73, 632.16, 676.13 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "lunastra",
+    "Crowns": [ 1645.81, 2102.98, 2249.28 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "namielle",
+    "Crowns": [ 1843.43, 2355.49, 2519.35 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "nargacuga",
+    "Crowns": [ 1723.27, 2201.95, 2355.13 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "nergigante",
+    "Crowns": [ 1663.31, 2125.34, 2273.19 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "nightshadePaolumu",
+    "Crowns": [ 1029.02, 1314.86, 1406.33 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "odogaron",
+    "Crowns": [ 1249.88, 1597.06, 1708.16 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "paolumu",
+    "Crowns": [ 1029.02, 1314.86, 1406.33 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "pinkRathian",
+    "Crowns": [ 1578.93, 2017.53, 2157.88 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "pukei",
+    "Crowns": [ 992.21, 1212.7, 1322.94 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "radobaan",
+    "Crowns": [ 1623.12, 1983.82, 2164.16 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "rathalos",
+    "Crowns": [ 1533.8, 1959.85, 2096.19 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "rathian",
+    "Crowns": [ 1578.93, 2017.53, 2157.88 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "ruinerNergigante",
+    "Crowns": [ 1663.31, 2125.34, 2273.19 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "savageDeviljho",
+    "Crowns": [ 2043.18, 2352.76, 2476.58 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "scarredYianGaruga",
+    "Crowns": [ 1250.11, 1597.36, 1708.48 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "seethingBazelgeuse",
+    "Crowns": [ 1735.54, 2217.64, 2371.91 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "sharaIshvalda",
+    "Crowns": [ 0, 0, 0 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "shriekingLegiana",
+    "Crowns": [ 1648.52, 2106.44, 2252.98 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "silverRathalos",
+    "Crowns": [ 1533.8, 1959.85, 2096.19 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "teostra",
+    "Crowns": [ 1611.13, 2058.67, 2201.88 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "tigrex",
+    "Crowns": [ 1748.88, 2234.68, 2390.14 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "tobiKadachi",
+    "Crowns": [ 1170.47, 1430.57, 1560.62 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "tzitziYaKu",
+    "Crowns": [ 804.64, 1028.15, 1099.67 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "uragaan",
+    "Crowns": [ 1852.77, 2264.49, 2470.36 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "vaalHazak",
+    "Crowns": [ 1885.86, 2409.71, 2577.34 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "velkhana",
+    "Crowns": [ 2336.45, 2985.46, 3193.14 ],
+    "Habitats": [ "Hoarfrost Reach" ],
+    "Characteristics": "An elder dragon said to freeze all in tis path. According to legend, it can control the cold, and use its freezing breath to conjure mssive spires of ice out of nowhere.",
+    "Information": "Shattering the ice that encases its body neutralizes its freezing breath. The ice walls it foms can be broken to provide platforms for munting. Torch pods are useful for this."
+  },
+  {
+    "Id": "viperTobiKadachi",
+    "Crowns": [ 1170.47, 1430.57, 1560.62 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "xenoJiiva",
+    "Crowns": [ 4058.19, 5185.47, 5546.19 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "yianGaruga",
+    "Crowns": [ 1250.11, 1597.36, 1708.48 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "zinogre",
+    "Crowns": [ 1569.14, 2005.01, 2144.49 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  },
+  {
+    "Id": "zhoraMagdaros",
+    "Crowns": [ 23188.13, 29629.28, 31690.45 ],
+    "Habitats": [ "" ],
+    "Characteristics": "",
+    "Information": ""
+  }
+]

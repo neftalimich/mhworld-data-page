@@ -1,0 +1,312 @@
+[
+  {
+    "Id": "acidicGlavenus",
+    "Name": "Acidic Glavenus",
+    "Type": "Brute"
+  },
+  {
+    "Id": "ancientLeshen",
+    "Name": "Ancient Leshen",
+    "Type": "Relic"
+  },
+  {
+    "Id": "anjanath",
+    "Name": "Anjanath",
+    "Type": "Brute"
+  },
+  {
+    "Id": "azureRathalos",
+    "Name": "Azure Rathalos",
+    "Type": "Flying"
+  },
+  {
+    "Id": "banbaro",
+    "Name": "Banbaro",
+    "Type": "Brute"
+  },
+  {
+    "Id": "barioth",
+    "Name": "Barioth",
+    "Type": "Flying"
+  },
+  {
+    "Id": "barroth",
+    "Name": "Barroth",
+    "Type": "Brute"
+  },
+  {
+    "Id": "bazelgeuse",
+    "Name": "Bazelgeuse",
+    "Type": "Flying"
+  },
+  {
+    "Id": "behemoth",
+    "Name": "Behemoth",
+    "Type": "Elder"
+  },
+  {
+    "Id": "beotodus",
+    "Name": "Beotudus",
+    "Type": "Piscine"
+  },
+  {
+    "Id": "blackDiablos",
+    "Name": "Black Diablos",
+    "Type": "Flying"
+  },
+  {
+    "Id": "blackveilVaalHazak",
+    "Name": "Blackveil Vaal Hazak",
+    "Type": "Elder"
+  },
+  {
+    "Id": "brachydios",
+    "Name": "Brachydios",
+    "Type": "Brute"
+  },
+  {
+    "Id": "bruteTigrex",
+    "Name": "Brute Tigrex",
+    "Type": "Flying"
+  },
+  {
+    "Id": "coralPukei",
+    "Name": "Coral Pukei-Pukei",
+    "Type": "Bird"
+  },
+  {
+    "Id": "deviljho",
+    "Name": "Deviljho",
+    "Type": "Brute"
+  },
+  {
+    "Id": "diablos",
+    "Name": "Diablos",
+    "Type": "Flying"
+  },
+  {
+    "Id": "ebonyOdogaron",
+    "Name": "Ebony Odogaron",
+    "Type": "Fanged"
+  },
+  {
+    "Id": "fulgurAnjanath",
+    "Name": "Fulgur Anjanath",
+    "Type": "Brute"
+  },
+  {
+    "Id": "glavenus",
+    "Name": "Glavenus",
+    "Type": "Brute"
+  },
+  {
+    "Id": "goldRathian",
+    "Name": "Gold Rathian",
+    "Type": "Flying"
+  },
+  {
+    "Id": "greatGirros",
+    "Name": "Great Girros",
+    "Type": "Fanged"
+  },
+  {
+    "Id": "greatJagras",
+    "Name": "Great Jagras",
+    "Type": "Fanged"
+  },
+  {
+    "Id": "jyuratodus",
+    "Name": "Jyuratodus",
+    "Type": "Piscine"
+  },
+  {
+    "Id": "kirin",
+    "Name": "Kirin",
+    "Type": "Elder"
+  },
+  {
+    "Id": "kuluYaKu",
+    "Name": "Kulu-Ya-Ku",
+    "Type": "Bird"
+  },
+  {
+    "Id": "kulveTaroth",
+    "Name": "Kulve Taroth",
+    "Type": "Elder"
+  },
+  {
+    "Id": "kushalaDaora",
+    "Name": "Kushala Daora",
+    "Type": "Elder"
+  },
+  {
+    "Id": "lavasioth",
+    "Name": "Lavasioth",
+    "Type": "Piscine"
+  },
+  {
+    "Id": "legiana",
+    "Name": "Legiana",
+    "Type": "Flying"
+  },
+  {
+    "Id": "leshen",
+    "Name": "Leshen",
+    "Type": "Relic"
+  },
+  {
+    "Id": "lunastra",
+    "Name": "Lunastra",
+    "Type": "Elder"
+  },
+  {
+    "Id": "namielle",
+    "Name": "Namielle",
+    "Type": "Elder"
+  },
+  {
+    "Id": "nargacuga",
+    "Name": "Nargacuga",
+    "Type": "Flying"
+  },
+  {
+    "Id": "nergigante",
+    "Name": "Nergigante",
+    "Type": "Elder"
+  },
+  {
+    "Id": "nightshadePaolumu",
+    "Name": "Nightshade Paolumu",
+    "Type": "Flying"
+  },
+  {
+    "Id": "odogaron",
+    "Name": "Odogaron",
+    "Type": "Fanged"
+  },
+  {
+    "Id": "paolumu",
+    "Name": "Paolumu",
+    "Type": "Flying"
+  },
+  {
+    "Id": "pinkRathian",
+    "Name": "Pink Rathian",
+    "Type": "Flying"
+  },
+  {
+    "Id": "pukei",
+    "Name": "Pukei-Pukei",
+    "Type": "Bird"
+  },
+  {
+    "Id": "radobaan",
+    "Name": "Radobaan",
+    "Type": "Brute"
+  },
+  {
+    "Id": "rathalos",
+    "Name": "Rathalos",
+    "Type": "Flying"
+  },
+  {
+    "Id": "rathian",
+    "Name": "Rathian",
+    "Type": "Flying"
+  },
+  {
+    "Id": "ruinerNergigante",
+    "Name": "Ruiner Nergigante",
+    "Type": "Elder"
+  },
+  {
+    "Id": "savageDeviljho",
+    "Name": "Savage Deviljho",
+    "Type": "Brute"
+  },
+  {
+    "Id": "scarredYianGaruga",
+    "Name": "Scarred Yian Garuga",
+    "Type": "Bird"
+  },
+  {
+    "Id": "seethingBazelgeuse",
+    "Name": "Seething Bazelgeuse",
+    "Type": "Flying"
+  },
+  {
+    "Id": "sharaIshvalda",
+    "Name": "Shara Ishvalda",
+    "Type": "Elder"
+  },
+  {
+    "Id": "shriekingLegiana",
+    "Name": "Shrieking Legiana",
+    "Type": "Flying"
+  },
+  {
+    "Id": "silverRathalos",
+    "Name": "Silver Rathalos",
+    "Type": "Flying"
+  },
+  {
+    "Id": "teostra",
+    "Name": "Teostra",
+    "Type": "Elder"
+  },
+  {
+    "Id": "tigrex",
+    "Name": "Tigrex",
+    "Type": "Flying"
+  },
+  {
+    "Id": "tobiKadachi",
+    "Name": "Tobi-Kadachi",
+    "Type": "Fanged"
+  },
+  {
+    "Id": "tzitziYaKu",
+    "Name": "Tzitzi-Ya-Ku",
+    "Type": "Bird"
+  },
+  {
+    "Id": "uragaan",
+    "Name": "Uragaan",
+    "Type": "Brute"
+  },
+  {
+    "Id": "vaalHazak",
+    "Name": "Vaal Hazak",
+    "Type": "Elder"
+  },
+  {
+    "Id": "velkhana",
+    "Name": "Velkhana",
+    "Type": "Elder"
+  },
+  {
+    "Id": "viperTobiKadachi",
+    "Name": "Viper Tobi-Kadachi",
+    "Type": "Fanged"
+  },
+  {
+    "Id": "xenoJiiva",
+    "Name": "Xeno'Jiiva",
+    "Type": "Elder"
+  },
+  {
+    "Id": "yianGaruga",
+    "Name": "Yian Garuga",
+    "Type": "Bird"
+  },
+  {
+    "Id": "zhoraMagdaros",
+    "Name": "Zorah Magdaros",
+    "Type": "Elder"
+  },
+  {
+    "Id": "zinogre",
+    "Name": "Zinogre",
+    "Type": "Fanged"
+  }
+]

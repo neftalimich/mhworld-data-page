@@ -1,0 +1,17 @@
+﻿@media (max-width: 576px) {
+    table > thead > tr > th {
+        padding: 2px 4px !important;
+    }
+
+    table > tbody > tr > td {
+        padding: 2px 4px !important;
+    }
+
+    .modal-body {
+        padding: 5px !important;
+    }
+}
+
+td {
+    vertical-align: middle !important;
+}
