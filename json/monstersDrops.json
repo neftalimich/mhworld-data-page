@@ -22,48 +22,6 @@
             "Items": [ "" ]
           }
         ]
-      },
-      {
-        "Rank": "High",
-        "Carves": [
-          {
-            "Item": "",
-            "Frecuency": 0
-          }
-        ],
-        "Rewards": [
-          {
-            "Item": "",
-            "Frecuency": 0
-          }
-        ],
-        "Special": [
-          {
-            "Condition": "",
-            "Items": [ "" ]
-          }
-        ]
-      },
-      {
-        "Rank": "Masters Rank",
-        "Carves": [
-          {
-            "Item": "",
-            "Frecuency": 0
-          }
-        ],
-        "Rewards": [
-          {
-            "Item": "",
-            "Frecuency": 0
-          }
-        ],
-        "Special": [
-          {
-            "Condition": "",
-            "Items": [ "" ]
-          }
-        ]
       }
     ],
     "GuidingLands": {
@@ -80,6 +38,107 @@
         {
           "Item": "",
           "Frecuency": 0
+        }
+      ],
+      "ObteniblesTempered": [
+        {
+          "Item": "",
+          "Frecuency": 0
+        }
+      ]
+    }
+  },
+
+  {
+    "Id": "rajang",
+    "Drops": [
+      {
+        "Rank": "High",
+        "Carves": [
+          {
+            "Item": "Hardfang",
+            "Frecuency": 5
+          },
+          {
+            "Item": "Wildpelt",
+            "Frecuency": 4
+          },
+          {
+            "Item": "Hardclaw",
+            "Frecuency": 4
+          },
+          {
+            "Item": "Pelt+",
+            "Frecuency": 3
+          }
+        ],
+        "Rewards": [
+          {
+            "Item": "Wildpelt",
+            "Frecuency": 5
+          },
+          {
+            "Item": "Hardfang",
+            "Frecuency": 4
+          },
+          {
+            "Item": "Hardclaw",
+            "Frecuency": 4
+          },
+          {
+            "Item": "Tail",
+            "Frecuency": 3
+          },
+          {
+            "Item": "Hardhorn",
+            "Frecuency": 2
+          }
+        ],
+        "Special": [
+          {
+            "Condition": "Dropped",
+            "Items": [ "Wildpelt" ]
+          },
+          {
+            "Condition": "Horn Broken",
+            "Items": [ "Hardhorn" ]
+          },
+          {
+            "Condition": "Frelegs Broken",
+            "Items": [ "Hardclaw" ]
+          },
+          {
+            "Condition": "Tail Broken",
+            "Items": [ "Tail" ]
+          }
+        ]
+      }
+    ],
+    "GuidingLands": {
+      "Regions": [
+        {
+          "Name": "Wildspire",
+          "Level": 7,
+          "Frecuency": 3,
+          "LevelTempered": 0,
+          "FrecuencyTempered": 0
+        },
+        {
+          "Name": "Coral",
+          "Level": 7,
+          "Frecuency": 3,
+          "LevelTempered": 0,
+          "FrecuencyTempered": 0
+        }
+      ],
+      "Obtenibles": [
+        {
+          "Item": "Dragonvein Solidbone",
+          "Frecuency": 4
+        },
+        {
+          "Item": "Bloodthirsty Glimmerpelt",
+          "Frecuency": 5
         }
       ],
       "ObteniblesTempered": [
@@ -167,241 +226,6 @@
           {
             "Condition": "Tail Carved",
             "Items": [ "Lash", "Crystal" ]
-          }
-        ]
-      }
-    ],
-    "GuidingLands": {
-      "Regions": [
-        {
-          "Name": "Wildspire",
-          "Level": 6,
-          "Frecuency": 3,
-          "LevelTempered": 7,
-          "FrecuencyTempered": 1
-        },
-        {
-          "Name": "Coral",
-          "Level": 6,
-          "Frecuency": 2,
-          "LevelTempered": 7,
-          "FrecuencyTempered": 2
-        }
-      ],
-      "Obtenibles": [
-        {
-          "Item": "Elder Dragonvein Bone",
-          "Frecuency": 4
-        },
-        {
-          "Item": "Aurora Crownhorn",
-          "Frecuency": 5
-        }
-      ],
-      "ObteniblesTempered": [
-        {
-          "Item": "Elder Spiritvein Bone",
-          "Frecuency": 4
-        },
-        {
-          "Item": "Tempered Crownhorn",
-          "Frecuency": 5
-        },
-        {
-          "Item": "Great Spiritvein Gem",
-          "Frecuency": 1
-        }
-      ]
-    }
-  },
-  {
-    "Id": "test",
-    "Drops": [
-      {
-        "Rank": "Low",
-        "Carves": [
-          {
-            "Item": "Crystal Shard",
-            "Frecuency": 5,
-            "NotOwn": true
-          },
-          {
-            "Item": "Cortex",
-            "Frecuency": 4
-          },
-          {
-            "Item": "Hardclaw",
-            "Frecuency": 3
-          },
-          {
-            "Item": "Crownhorn",
-            "Frecuency": 2
-          },
-          {
-            "Item": "Fellwing",
-            "Frecuency": 3
-          },
-          {
-            "Item": "Crystal",
-            "Frecuency": 1
-          }
-        ],
-        "Rewards": [
-          {
-            "Item": "Cortex",
-            "Frecuency": 4
-          },
-          {
-            "Item": "Crystal Shard",
-            "Frecuency": 4,
-            "NotOwn": true
-          },
-          {
-            "Item": "Hardclaw",
-            "Frecuency": 3
-          },
-          {
-            "Item": "Lash",
-            "Frecuency": 3
-          },
-          {
-            "Item": "Large Elder Dragn Boner",
-            "Frecuency": 2,
-            "NotOwn": true
-          },
-          {
-            "Item": "Pure Dragon Blood",
-            "Frecuency": 3,
-            "NotOwn": true
-          }
-        ],
-        "Special": [
-          {
-            "Condition": "Dropped",
-            "Items": [ "Hardclaw" ]
-          },
-          {
-            "Condition": "Head Broken",
-            "Items": [ "Crownhorn", "Crystal" ]
-          },
-          {
-            "Condition": "Wings Broken",
-            "Items": [ "Fellwing" ]
-          },
-          {
-            "Condition": "Tail Carved",
-            "Items": [ "Lash", "Crystal" ]
-          }
-        ]
-      },
-      {
-        "Rank": "High",
-        "Carves": [
-          {
-            "Item": "Crystal Shard",
-            "Frecuency": 5,
-            "NotOwn": true
-          },
-          {
-            "Item": "Cortex",
-            "Frecuency": 4
-          },
-          {
-            "Item": "Hardclaw",
-            "Frecuency": 3
-          },
-          {
-            "Item": "Crownhorn",
-            "Frecuency": 2
-          },
-          {
-            "Item": "Fellwing",
-            "Frecuency": 3
-          }
-        ],
-        "Rewards": [
-          {
-            "Item": "Cortex",
-            "Frecuency": 4
-          },
-          {
-            "Item": "Crystal Shard",
-            "Frecuency": 4,
-            "NotOwn": true
-          },
-          {
-            "Item": "Hardclaw",
-            "Frecuency": 3
-          },
-          {
-            "Item": "Lash",
-            "Frecuency": 3
-          },
-          {
-            "Item": "Large Elder Dragn Boner",
-            "Frecuency": 2,
-            "NotOwn": true
-          }
-        ],
-        "Special": [
-          {
-            "Condition": "Dropped",
-            "Items": [ "Hardclaw" ]
-          },
-          {
-            "Condition": "Head Broken",
-            "Items": [ "Crownhorn", "Crystal" ]
-          },
-          {
-            "Condition": "Wings Broken",
-            "Items": [ "Fellwing" ]
-          }
-        ]
-      },
-      {
-        "Rank": "Master",
-        "Carves": [
-          {
-            "Item": "Crystal Shard",
-            "Frecuency": 5,
-            "NotOwn": true
-          },
-          {
-            "Item": "Cortex",
-            "Frecuency": 4
-          },
-          {
-            "Item": "Hardclaw",
-            "Frecuency": 3
-          }
-        ],
-        "Rewards": [
-          {
-            "Item": "Cortex",
-            "Frecuency": 4
-          },
-          {
-            "Item": "Crystal Shard",
-            "Frecuency": 4,
-            "NotOwn": true
-          },
-          {
-            "Item": "Hardclaw",
-            "Frecuency": 3
-          },
-          {
-            "Item": "Lash",
-            "Frecuency": 3
-          }
-        ],
-        "Special": [
-          {
-            "Condition": "Dropped",
-            "Items": [ "Hardclaw" ]
-          },
-          {
-            "Condition": "Head Broken",
-            "Items": [ "Crownhorn", "Crystal" ]
           }
         ]
       }

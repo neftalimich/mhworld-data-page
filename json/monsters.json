@@ -205,6 +205,11 @@
     "Type": "Brute"
   },
   {
+    "Id": "rajang",
+    "Name": "Rajang",
+    "Type": "Fanged"
+  },
+  {
     "Id": "rathalos",
     "Name": "Rathalos",
     "Type": "Flying"

@@ -16,7 +16,7 @@
         [ 2 ],
         [ 2 ],
         [ 2 ],
-        [ 2 ]	
+        [ 2 ]
       ],
       "AilmentStates": [ "" ]
     },
@@ -1854,7 +1854,7 @@
     ]
   },
   {
-    "Id": "blackveilVaalHazak",   
+    "Id": "blackveilVaalHazak",
     "HP": 4300,
     "Resistances": {
       "Element": [
@@ -2564,7 +2564,7 @@
     ]
   },
   {
-    "Id": "deviljho",    
+    "Id": "deviljho",
     "HP": 3000,
     "Resistances": {
       "Element": [
@@ -3818,7 +3818,7 @@
     ]
   },
   {
-    "Id": "greatGirros",  
+    "Id": "greatGirros",
     "HP": 2000,
     "Resistances": {
       "Element": [
@@ -7322,6 +7322,34 @@
         "Extract": "W",
         "Sever": 0
       }
+    ]
+  },
+  {
+    "Id": "rajang",
+    "HP": 3000,
+    "Resistances": {
+      "Element": [
+        [ 0 ],
+        [ 1 ],
+        [ 0 ],
+        [ 3 ],
+        [ 0 ]
+      ],
+      "ElementStates": [ "" ],
+      "Ailment": [
+        [ 1 ],
+        [ 1 ],
+        [ 1 ],
+        [ 2 ],
+        [ 1 ]
+      ],
+      "AilmentStates": [ "" ]
+    },
+    "HitData": [
+      
+    ],
+    "FlinchData": [
+      
     ]
   },
   {
@@ -11422,5 +11450,5 @@
       }
     ]
   }
-  
+
 ]

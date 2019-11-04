@@ -287,6 +287,13 @@
     "Information": ""
   },
   {
+    "Id": "rajang",
+    "Crowns": [ 0, 0, 0 ],
+    "Habitats": [ "The Guiding Lands" ],
+    "Characteristics": "An ultra-agressive creature that few havea chance of surviving against. Sports powerful arms that pack a punch. Turns gold when angry.",
+    "Information": "Rajang is most dangerous when its arms are powered up, and can even destroy shock traps. Pitfall traps are effective, but only when it's enranged. Will immediately attack anything that invades its territory."
+  },
+  {
     "Id": "rathalos",
     "Crowns": [ 1533.8, 1959.85, 2096.19 ],
     "Habitats": [ "" ],
