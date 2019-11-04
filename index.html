@@ -38,7 +38,7 @@
         <div id="mhwMonsterApp" style="display:none;">
             <h2>Monsters</h2>
             <div class="input-group mb-3">
-                <input id="monsterSearchBox" type="text" class="form-control" v-model="searchBox" v-on:keyup.enter="FilterMonsters()" tabindex="1">
+                <input id="monsterSearchBox" type="text" class="form-control" v-model="searchBox" v-on:keyup.enter="FilterMonsters()" placeholder="Monster Name" tabindex="1">
                 <select class="form-control" v-model="typeBox" v-on:change="FilterMonsters()" tabindex="2">
                     <option value="">
                         All
