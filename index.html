@@ -322,10 +322,7 @@
                                             <tbody>
                                                 <tr v-for="(drop,index) in dropSelected.Drops[dropIndex].Carves">
                                                     <td>
-                                                        <span v-show="!drop.NotOwn">
-                                                            {{monsterSelected.Name}}
-                                                        </span>
-                                                        {{drop.Item}}
+                                                        {{drop.Item.replace('{0}',monsterSelected.Name)}}
                                                     </td>
                                                     <td>
                                                         <span v-for="(item, index) in drop.Frecuency">
@@ -348,10 +345,7 @@
                                             <tbody>
                                                 <tr v-for="(drop,index) in dropSelected.Drops[dropIndex].Rewards">
                                                     <td>
-                                                        <span v-show="!drop.NotOwn">
-                                                            {{monsterSelected.Name}}
-                                                        </span>
-                                                        {{drop.Item}}
+                                                        {{drop.Item.replace('{0}',monsterSelected.Name)}}
                                                     </td>
                                                     <td>
                                                         <span v-for="(item, index) in drop.Frecuency">

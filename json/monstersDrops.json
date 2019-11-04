@@ -6,13 +6,13 @@
         "Rank": "Low",
         "Carves": [
           {
-            "Item": "",
+            "Item": "{0} ",
             "Frecuency": 0
           }
         ],
         "Rewards": [
           {
-            "Item": "",
+            "Item": "{0} ",
             "Frecuency": 0
           }
         ],
@@ -36,19 +36,18 @@
       ],
       "Obtenibles": [
         {
-          "Item": "",
+          "Item": "{0} ",
           "Frecuency": 0
         }
       ],
       "ObteniblesTempered": [
         {
-          "Item": "",
+          "Item": "{0} ",
           "Frecuency": 0
         }
       ]
     }
   },
-
   {
     "Id": "rajang",
     "Drops": [
@@ -56,41 +55,41 @@
         "Rank": "High",
         "Carves": [
           {
-            "Item": "Hardfang",
+            "Item": "{0} Hardfang",
             "Frecuency": 5
           },
           {
-            "Item": "Wildpelt",
+            "Item": "{0} Wildpelt",
             "Frecuency": 4
           },
           {
-            "Item": "Hardclaw",
+            "Item": "{0} Hardclaw",
             "Frecuency": 4
           },
           {
-            "Item": "Pelt+",
+            "Item": "Gold {0} Pelt+",
             "Frecuency": 3
           }
         ],
         "Rewards": [
           {
-            "Item": "Wildpelt",
+            "Item": "{0} Wildpelt",
             "Frecuency": 5
           },
           {
-            "Item": "Hardfang",
+            "Item": "{0} Hardfang",
             "Frecuency": 4
           },
           {
-            "Item": "Hardclaw",
+            "Item": "{0} Hardclaw",
             "Frecuency": 4
           },
           {
-            "Item": "Tail",
+            "Item": "{0} Tail",
             "Frecuency": 3
           },
           {
-            "Item": "Hardhorn",
+            "Item": "{0} Hardhorn",
             "Frecuency": 2
           }
         ],
@@ -133,17 +132,17 @@
       ],
       "Obtenibles": [
         {
-          "Item": "Dragonvein Solidbone",
+          "Item": "{0} Dragonvein Solidbone",
           "Frecuency": 4
         },
         {
-          "Item": "Bloodthirsty Glimmerpelt",
+          "Item": "{0} Bloodthirsty Glimmerpelt",
           "Frecuency": 5
         }
       ],
       "ObteniblesTempered": [
         {
-          "Item": "",
+          "Item": "{0} ",
           "Frecuency": 0
         }
       ]
@@ -161,29 +160,29 @@
             "NotOwn": true
           },
           {
-            "Item": "Cortex",
+            "Item": "{0} Cortex",
             "Frecuency": 4
           },
           {
-            "Item": "Hardclaw",
+            "Item": "{0} Hardclaw",
             "Frecuency": 3
           },
           {
-            "Item": "Crownhorn",
+            "Item": "{0} Crownhorn",
             "Frecuency": 2
           },
           {
-            "Item": "Fellwing",
+            "Item": "{0} Fellwing",
             "Frecuency": 3
           },
           {
-            "Item": "Crystal",
+            "Item": "{0} Crystal",
             "Frecuency": 1
           }
         ],
         "Rewards": [
           {
-            "Item": "Cortex",
+            "Item": "{0} Cortex",
             "Frecuency": 4
           },
           {
@@ -192,11 +191,11 @@
             "NotOwn": true
           },
           {
-            "Item": "Hardclaw",
+            "Item": "{0} Hardclaw",
             "Frecuency": 3
           },
           {
-            "Item": "Lash",
+            "Item": "{0} Lash",
             "Frecuency": 3
           },
           {
@@ -250,7 +249,8 @@
       "Obtenibles": [
         {
           "Item": "Elder Dragonvein Bone",
-          "Frecuency": 4
+          "Frecuency": 4,
+          "NotOwn": true
         },
         {
           "Item": "Aurora Crownhorn",
@@ -260,7 +260,8 @@
       "ObteniblesTempered": [
         {
           "Item": "Elder Spiritvein Bone",
-          "Frecuency": 4
+          "Frecuency": 4,
+          "NotOwn": true
         },
         {
           "Item": "Tempered Crownhorn",
@@ -268,7 +269,8 @@
         },
         {
           "Item": "Great Spiritvein Gem",
-          "Frecuency": 1
+          "Frecuency": 1,
+          "NotOwn": true
         }
       ]
     }
