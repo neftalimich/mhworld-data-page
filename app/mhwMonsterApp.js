@@ -15,6 +15,7 @@ var app = new Vue({
 			types: [],
 			searchBox: '',
 			typeBox: '',
+			itemSearchBox: '',
 			monsterSelected: null,
 			ecologySelected: null,
 			physicologySelected: null,
