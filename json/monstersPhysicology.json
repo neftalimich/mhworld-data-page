@@ -11021,206 +11021,6 @@
     ]
   },
   {
-    "Id": "zhoraMagdaros",
-    "HP": 4000,
-    "Resistances": {
-      "Element": [
-        [ 0 ],
-        [ 3 ],
-        [ 1 ],
-        [ 2 ],
-        [ 3 ]
-      ],
-      "ElementStates": [ "" ],
-      "Ailment": [
-        [ 0 ],
-        [ 0 ],
-        [ 0 ],
-        [ 0 ],
-        [ 0 ]
-      ],
-      "AilmentStates": [ "" ]
-    },
-    "HitData": [
-      {
-        "Part": "Head",
-        "Sever": 40,
-        "Blunt": 40,
-        "Ranged": 40,
-        "Fire": 0,
-        "Water": 20,
-        "Thunder": 10,
-        "Ice": 15,
-        "Dragon": 20,
-        "Stun": 0
-      },
-      {
-        "Part": "Body",
-        "Sever": 30,
-        "Blunt": 30,
-        "Ranged": 25,
-        "Fire": 0,
-        "Water": 10,
-        "Thunder": 5,
-        "Ice": 5,
-        "Dragon": 10,
-        "Stun": 0
-      },
-      {
-        "Part": "Chest (Before Wounded)",
-        "Sever": 50,
-        "Blunt": 50,
-        "Ranged": 30,
-        "Fire": 0,
-        "Water": 25,
-        "Thunder": 10,
-        "Ice": 20,
-        "Dragon": 25,
-        "Stun": 0
-      },
-      {
-        "Part": "Chest (After Wounded)",
-        "Sever": 80,
-        "Blunt": 80,
-        "Ranged": 80,
-        "Fire": 0,
-        "Water": 30,
-        "Thunder": 15,
-        "Ice": 25,
-        "Dragon": 30,
-        "Stun": 0
-      },
-      {
-        "Part": "Forelegs",
-        "Sever": 30,
-        "Blunt": 30,
-        "Ranged": 25,
-        "Fire": 0,
-        "Water": 10,
-        "Thunder": 5,
-        "Ice": 5,
-        "Dragon": 10,
-        "Stun": 0
-      },
-      {
-        "Part": "Hindlegs",
-        "Sever": 25,
-        "Blunt": 25,
-        "Ranged": 20,
-        "Fire": 0,
-        "Water": 10,
-        "Thunder": 5,
-        "Ice": 5,
-        "Dragon": 10,
-        "Stun": 0
-      },
-      {
-        "Part": "Tail",
-        "Sever": 25,
-        "Blunt": 25,
-        "Ranged": 20,
-        "Fire": 0,
-        "Water": 10,
-        "Thunder": 5,
-        "Ice": 5,
-        "Dragon": 10,
-        "Stun": 0
-      },
-      {
-        "Part": "Shell",
-        "Sever": 1,
-        "Blunt": 1,
-        "Ranged": 1,
-        "Fire": 0,
-        "Water": 0,
-        "Thunder": 0,
-        "Ice": 0,
-        "Dragon": 0,
-        "Stun": 0
-      },
-      {
-        "Part": "Weak Shells",
-        "Sever": 60,
-        "Blunt": 60,
-        "Ranged": 50,
-        "Fire": 0,
-        "Water": 20,
-        "Thunder": 10,
-        "Ice": 15,
-        "Dragon": 20,
-        "Stun": 0
-      }
-    ],
-    "FlinchData": [
-      {
-        "Part": "Head",
-        "Value": 400,
-        "Extract": "R",
-        "Sever": 0
-      },
-      {
-        "Part": "Body",
-        "Value": 800,
-        "Extract": "O",
-        "Sever": 0
-      },
-      {
-        "Part": "Chest",
-        "Value": 500,
-        "Extract": "R",
-        "Sever": 0
-      },
-      {
-        "Part": "Left Foreleg",
-        "Value": 1000,
-        "Extract": "R",
-        "Sever": 0
-      },
-      {
-        "Part": "Right Foreleg",
-        "Value": 1000,
-        "Extract": "R",
-        "Sever": 0
-      },
-      {
-        "Part": "Left Hindleg",
-        "Value": 1000,
-        "Extract": "W",
-        "Sever": 0
-      },
-      {
-        "Part": "Right Hindleg",
-        "Value": 1000,
-        "Extract": "W",
-        "Sever": 0
-      },
-      {
-        "Part": "Tail",
-        "Value": 1000,
-        "Extract": "W",
-        "Sever": 0
-      },
-      {
-        "Part": "Shell",
-        "Value": 1500,
-        "Extract": "O",
-        "Sever": 0
-      },
-      {
-        "Part": "Weak Shell",
-        "Value": 100,
-        "Extract": "R",
-        "Sever": 0
-      },
-      {
-        "Part": "Weak Shell",
-        "Value": 100,
-        "Extract": "R",
-        "Sever": 0
-      }
-    ]
-  },
-  {
     "Id": "zinogre",
     "HP": 3350,
     "Resistances": {
@@ -11449,6 +11249,205 @@
         "Sever": 550
       }
     ]
+  },
+  {
+    "Id": "zorahMagdaros",
+    "HP": 10000,
+    "Resistances": {
+      "Element": [
+        [ 0 ],
+        [ 3 ],
+        [ 1 ],
+        [ 2 ],
+        [ 3 ]
+      ],
+      "ElementStates": [ "" ],
+      "Ailment": [
+        [ 0 ],
+        [ 0 ],
+        [ 0 ],
+        [ 0 ],
+        [ 0 ]
+      ],
+      "AilmentStates": [ "" ]
+    },
+    "HitData": [
+      {
+        "Part": "Head",
+        "Sever": 40,
+        "Blunt": 40,
+        "Ranged": 40,
+        "Fire": 0,
+        "Water": 20,
+        "Thunder": 10,
+        "Ice": 15,
+        "Dragon": 20,
+        "Stun": 0
+      },
+      {
+        "Part": "Body",
+        "Sever": 30,
+        "Blunt": 30,
+        "Ranged": 25,
+        "Fire": 0,
+        "Water": 10,
+        "Thunder": 5,
+        "Ice": 5,
+        "Dragon": 10,
+        "Stun": 0
+      },
+      {
+        "Part": "Chest (Before Wounded)",
+        "Sever": 50,
+        "Blunt": 50,
+        "Ranged": 30,
+        "Fire": 0,
+        "Water": 25,
+        "Thunder": 10,
+        "Ice": 20,
+        "Dragon": 25,
+        "Stun": 0
+      },
+      {
+        "Part": "Chest (After Wounded)",
+        "Sever": 80,
+        "Blunt": 80,
+        "Ranged": 80,
+        "Fire": 0,
+        "Water": 30,
+        "Thunder": 15,
+        "Ice": 25,
+        "Dragon": 30,
+        "Stun": 0
+      },
+      {
+        "Part": "Forelegs",
+        "Sever": 30,
+        "Blunt": 30,
+        "Ranged": 25,
+        "Fire": 0,
+        "Water": 10,
+        "Thunder": 5,
+        "Ice": 5,
+        "Dragon": 10,
+        "Stun": 0
+      },
+      {
+        "Part": "Hindlegs",
+        "Sever": 25,
+        "Blunt": 25,
+        "Ranged": 20,
+        "Fire": 0,
+        "Water": 10,
+        "Thunder": 5,
+        "Ice": 5,
+        "Dragon": 10,
+        "Stun": 0
+      },
+      {
+        "Part": "Tail",
+        "Sever": 25,
+        "Blunt": 25,
+        "Ranged": 20,
+        "Fire": 0,
+        "Water": 10,
+        "Thunder": 5,
+        "Ice": 5,
+        "Dragon": 10,
+        "Stun": 0
+      },
+      {
+        "Part": "Shell",
+        "Sever": 1,
+        "Blunt": 1,
+        "Ranged": 1,
+        "Fire": 0,
+        "Water": 0,
+        "Thunder": 0,
+        "Ice": 0,
+        "Dragon": 0,
+        "Stun": 0
+      },
+      {
+        "Part": "Weak Shells",
+        "Sever": 60,
+        "Blunt": 60,
+        "Ranged": 50,
+        "Fire": 0,
+        "Water": 20,
+        "Thunder": 10,
+        "Ice": 15,
+        "Dragon": 20,
+        "Stun": 0
+      }
+    ],
+    "FlinchData": [
+      {
+        "Part": "Head",
+        "Value": 400,
+        "Extract": "R",
+        "Sever": 0
+      },
+      {
+        "Part": "Body",
+        "Value": 800,
+        "Extract": "O",
+        "Sever": 0
+      },
+      {
+        "Part": "Chest",
+        "Value": 500,
+        "Extract": "R",
+        "Sever": 0
+      },
+      {
+        "Part": "Left Foreleg",
+        "Value": 1000,
+        "Extract": "R",
+        "Sever": 0
+      },
+      {
+        "Part": "Right Foreleg",
+        "Value": 1000,
+        "Extract": "R",
+        "Sever": 0
+      },
+      {
+        "Part": "Left Hindleg",
+        "Value": 1000,
+        "Extract": "W",
+        "Sever": 0
+      },
+      {
+        "Part": "Right Hindleg",
+        "Value": 1000,
+        "Extract": "W",
+        "Sever": 0
+      },
+      {
+        "Part": "Tail",
+        "Value": 1000,
+        "Extract": "W",
+        "Sever": 0
+      },
+      {
+        "Part": "Shell",
+        "Value": 1500,
+        "Extract": "O",
+        "Sever": 0
+      },
+      {
+        "Part": "Weak Shell",
+        "Value": 100,
+        "Extract": "R",
+        "Sever": 0
+      },
+      {
+        "Part": "Weak Shell",
+        "Value": 100,
+        "Extract": "R",
+        "Sever": 0
+      }
+    ]
   }
-
 ]

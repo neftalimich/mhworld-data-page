@@ -305,13 +305,13 @@
     "Type": "Bird"
   },
   {
-    "Id": "zhoraMagdaros",
-    "Name": "Zorah Magdaros",
-    "Type": "Elder"
-  },
-  {
     "Id": "zinogre",
     "Name": "Zinogre",
     "Type": "Fanged"
+  },
+  {
+    "Id": "zorahMagdaros",
+    "Name": "Zorah Magdaros",
+    "Type": "Elder"
   }
 ]
