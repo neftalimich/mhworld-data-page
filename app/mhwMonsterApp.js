@@ -21,7 +21,7 @@ var app = new Vue({
 			dropSelected: null,
 			dropIndex: 0,
 			showGL: false,
-			tabActived: 3,
+			tabActived: 0,
 			elements: ["fire", "water", "thunder", "ice", "dragon"],
 			ailments: ["poison", "sleep", "paralysis", "blast", "stun"]
 		};
