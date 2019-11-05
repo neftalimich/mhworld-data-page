@@ -54,7 +54,7 @@
                 </div>
             </div>
             <div class="input-group mb-3">
-                <input id="itemSearchBox" type="text" class="form-control" v-model="itemSearchBox" v-on:keyup.enter="FilterItems()" placeholder="Guiding Lands Material (ALPHA: Working on)">
+                <input id="itemSearchBox" type="text" class="form-control" v-model="itemSearchBox" v-on:keyup.enter="FilterItems()" placeholder="Guiding Lands Material (Working on)">
                 <div class="input-group-append">
                     <button class="btn btn-outline-secondary" type="button" v-on:click="FilterItems()">
                         <i class="fab fa-searchengin"></i>
@@ -74,6 +74,7 @@
                     </span>
                 </li>
             </ul>
+            <br />
 
             <!-- Modal -->
             <div class="modal fade" id="dataModal" tabindex="-1" role="dialog" aria-labelledby="dataModalLabel" aria-hidden="true">
@@ -123,7 +124,7 @@
                                                                 </span>
                                                             </span>
                                                             <span v-else>
-                                                                <i class="fas fa-times text-danger"></i>
+                                                                <i class="fas fa-times text-danger" style="padding: 0px 2px;"></i>
                                                             </span>
                                                             <span v-if="element.length > 1" style="white-space:nowrap;">
                                                                 <span v-for="(extra, index) in element" v-if="index > 0">
@@ -133,7 +134,7 @@
                                                                         </span><!---->)
                                                                     </span>
                                                                     <span v-else>
-                                                                        (<i class="fas fa-times text-danger"></i>)
+                                                                        (<i class="fas fa-times text-danger" style="padding: 0px 2px;"></i>)
                                                                     </span>
                                                                 </span>
                                                             </span>
@@ -171,7 +172,7 @@
                                                                 </span>
                                                             </span>
                                                             <span v-else>
-                                                                <i class="fas fa-times text-danger"></i>
+                                                                <i class="fas fa-times text-danger" style="padding: 0px 2px;"></i>
                                                             </span>
                                                             <span v-if="ailment.length > 1">
                                                                 <span v-for="(extra, index) in ailment" v-if="index > 0">
@@ -181,7 +182,7 @@
                                                                         </span><!---->)
                                                                     </span>
                                                                     <span v-else>
-                                                                        (<i class="fas fa-times text-danger"></i>)
+                                                                        (<i class="fas fa-times text-danger" style="padding: 0px 2px;"></i>)
                                                                     </span>
                                                                 </span>
                                                             </span>
@@ -486,22 +487,26 @@
                                                 </tr>
                                             </tbody>
                                         </table>
-                                        <span v-for="region in dropSelected.GuidingLands.Regions">
-                                            <i class="fas fa-dot-circle fa-sm"></i> Region: {{region.Name}}
-                                            <br />
-                                            - Level: <strong class="text-info">{{region.Level}}</strong>
-                                            - Frecuency:
-                                            <span v-for="(item, index) in region.Frecuency">
-                                                <i class="fas fa-star fa-sm text-info"></i>
-                                            </span>
-                                            <br />
-                                            ∘ Tempered Level: <strong class="text-info">{{region.LevelTempered}}</strong>
-                                            - Frecuency:
-                                            <span v-for="(item, index) in region.FrecuencyTempered">
-                                                <i class="fas fa-star fa-sm text-info"></i>
-                                            </span>
-                                            <br />
-                                        </span>
+                                        <div class="row">
+                                            <div v-for="region in dropSelected.GuidingLands.Regions" class="col-6">
+                                                <i class="fas fa-dot-circle fa-sm"></i> Region: {{region.Name}}
+                                                <br />
+                                                <ul>
+                                                    <li v-for="(lv, index) in region.LevelFrecuency">
+                                                        Lv {{lv[0]}}:
+                                                        <span v-for="(item, index) in lv[1]">
+                                                            <i class="fas fa-star fa-sm text-info"></i>
+                                                        </span>
+                                                    </li>
+                                                    <li v-for="(lv, index) in region.TemperedFrecuency">
+                                                        Lv {{lv[0]}}:
+                                                        <span v-for="(item, index) in lv[1]">
+                                                            <i class="fas fa-star fa-sm text-purple"></i>
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -512,8 +517,6 @@
                     </div>
                 </div>
             </div>
-
-            <br />
         </div>
     </div>
 

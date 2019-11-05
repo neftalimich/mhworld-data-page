@@ -142,9 +142,9 @@
   {
     "Id": "goldRathian",
     "Crowns": [ 1578.93, 2017.53, 2157.88 ],
-    "Habitats": [ "" ],
-    "Characteristics": "",
-    "Information": ""
+    "Habitats": [ "The Guiding Lands" ],
+    "Characteristics": "A rare gleaming gold-scaled Rathian species. When wreathed in helifire, its breath growns more lethal and its tail swipes broader.",
+    "Information": "The helifire can be dispelled by dealing a set amount of damage to its head, which is extremely tough until broken. Try to destroy it as quickly as possible."
   },
   {
     "Id": "greatGirros",
@@ -352,9 +352,9 @@
   {
     "Id": "silverRathalos",
     "Crowns": [ 1533.8, 1959.85, 2096.19 ],
-    "Habitats": [ "" ],
-    "Characteristics": "",
-    "Information": ""
+    "Habitats": [ "The Guiding Lands" ],
+    "Characteristics": "A rare silver-scaled Rathalos species. When wreathed in helifire, its breath grows more lethal and it gains a new et of attacks.",
+    "Information": "The helifire can be diselled by dealing a set amount of damage to its head. It lives in tandem with a Gold Rathian, and their breath becomes deadlier still when combined."
   },
   {
     "Id": "teostra",

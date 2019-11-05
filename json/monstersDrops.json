@@ -28,10 +28,12 @@
       "Regions": [
         {
           "Name": "",
-          "Level": 0,
-          "Frecuency": 0,
-          "LevelTempered": 0,
-          "FrecuencyTempered": 0
+          "LevelFrecuency": [
+            [ 0, 0 ]
+          ],
+          "TemperedFrecuency": [
+            [ 0, 0 ]
+          ]
         }
       ],
       "Obtenibles": [
@@ -44,6 +46,130 @@
         {
           "Item": "{0} ",
           "Frecuency": 0
+        }
+      ]
+    }
+  },
+  {
+    "Id": "goldRathian",
+    "Drops": [
+      {
+        "Rank": "Master",
+        "Carves": [
+          {
+            "Item": "{0} Cortex",
+            "Frecuency": 4
+          },
+          {
+            "Item": "{0} Shard",
+            "Frecuency": 5
+          },
+          {
+            "Item": "Rathian Weave",
+            "Frecuency": 3
+          },
+          {
+            "Item": "{0} Surspike",
+            "Frecuency": 3
+          },
+          {
+            "Item": "Rath Gleam",
+            "Frecuency": 3
+          },
+          {
+            "Item": "Rathian Mantle",
+            "Frecuency": 1
+          }
+        ],
+        "Rewards": [
+          {
+            "Item": "{0} Cortex",
+            "Frecuency": 4
+          },
+          {
+            "Item": "{0} Shard",
+            "Frecuency": 4
+          },
+          {
+            "Item": "Rath Wingtalon+",
+            "Frecuency": 3
+          },
+          {
+            "Item": "Rathian Weave",
+            "Frecuency": 2
+          },
+          {
+            "Item": "Rathian Mantle",
+            "Frecuency": 1
+          },
+          {
+            "Item": "Conflagrant Sac",
+            "Frecuency": 3,
+            "NotOwn": true
+          },
+          {
+            "Item": "Rath Gleam",
+            "Frecuency": 3
+          }
+        ],
+        "Special": [
+          {
+            "Condition": "Dropped",
+            "Items": [ "{0} Shard" ]
+          },
+          {
+            "Condition": "Head Broken",
+            "Items": [ "{0} Cortex", "Rathian Mantle" ]
+          },
+          {
+            "Condition": "Wings Broken",
+            "Items": [ "Rath Wingtalon+" ]
+          },
+          {
+            "Condition": "Back Broken",
+            "Items": [ "{0} Cortex", "Rathian Mantle" ]
+          },
+          {
+            "Condition": "Tail Carved",
+            "Items": [ "{0} Surspike", "Rathian Mantle" ]
+          }
+        ]
+      }
+    ],
+    "GuidingLands": {
+      "Regions": [
+        {
+          "Name": "Wildspire",
+          "LevelFrecuency": [
+            [ 6, 3 ]
+          ],
+          "TemperedFrecuency": [
+            [ 7, 3 ]
+          ]
+        }
+      ],
+      "Obtenibles": [
+        {
+          "Item": "Dragonvein Solidbone",
+          "Frecuency": 5
+        },
+        {
+          "Item": "Moonlight Scale",
+          "Frecuency": 4
+        }
+      ],
+      "ObteniblesTempered": [
+        {
+          "Item": "Spiritvein Solidbone",
+          "Frecuency": 4
+        },
+        {
+          "Item": "Tempered Gold Scale",
+          "Frecuency": 5
+        },
+        {
+          "Item": "Great Spiritvein Gem",
+          "Frecuency": 1
         }
       ]
     }
@@ -117,17 +243,23 @@
       "Regions": [
         {
           "Name": "Wildspire",
-          "Level": 7,
-          "Frecuency": 3,
-          "LevelTempered": 0,
-          "FrecuencyTempered": 0
+          "LevelFrecuency": [
+            [ 4, 1 ],
+            [ 5, 2 ],
+            [ 6, 2 ],
+            [ 7, 3 ]
+          ],
+          "TemperedFrecuency": []
         },
         {
           "Name": "Coral",
-          "Level": 7,
-          "Frecuency": 3,
-          "LevelTempered": 0,
-          "FrecuencyTempered": 0
+          "LevelFrecuency": [
+            [ 4, 1 ],
+            [ 5, 2 ],
+            [ 6, 2 ],
+            [ 7, 3 ]
+          ],
+          "TemperedFrecuency": []
         }
       ],
       "Obtenibles": [
@@ -241,23 +373,159 @@
     "GuidingLands": {
       "Regions": [
         {
-          "Name": "",
-          "Level": 0,
-          "Frecuency": 0,
-          "LevelTempered": 0,
-          "FrecuencyTempered": 0
+          "Name": "Wildspire",
+          "LevelFrecuency": [
+            [ 5, 1 ],
+            [ 6, 1 ],
+            [ 7, 3 ]
+          ],
+          "TemperedFrecuency": []
+        },
+        {
+          "Name": "Coral",
+          "LevelFrecuency": [
+            [ 5, 1 ],
+            [ 6, 1 ],
+            [ 7, 3 ]
+          ],
+          "TemperedFrecuency": []
         }
       ],
       "Obtenibles": [
         {
-          "Item": "{0} ",
-          "Frecuency": 0
+          "Item": "Elder Dragonvein Bone",
+          "Frecuency": 5
+        },
+        {
+          "Item": "Extinction Greathorn",
+          "Frecuency": 4
         }
       ],
       "ObteniblesTempered": [
         {
           "Item": "{0} ",
           "Frecuency": 0
+        }
+      ]
+    }
+  },
+  {
+    "Id": "silverRathalos",
+    "Drops": [
+      {
+        "Rank": "Master",
+        "Carves": [
+          {
+            "Item": "{0} Shard",
+            "Frecuency": 5
+          },
+          {
+            "Item": "{0} Cortex",
+            "Frecuency": 4
+          },
+          {
+            "Item": "{0} Fellwing",
+            "Frecuency": 3
+          },
+          {
+            "Item": "Rath Gleam",
+            "Frecuency": 3,
+            "NotOwn": true
+          },
+          {
+            "Item": "Rathalos Mantle",
+            "Frecuency": 1
+          }
+        ],
+        "Rewards": [
+          {
+            "Item": "{0} Cortex",
+            "Frecuency": 4
+          },
+          {
+            "Item": "{0} Shard",
+            "Frecuency": 4
+          },
+          {
+            "Item": "{0} Fellwing",
+            "Frecuency": 3
+          },
+          {
+            "Item": "{0} Lash",
+            "Frecuency": 2
+          },
+          {
+            "Item": "Rathalos Mantle",
+            "Frecuency": 1
+          },
+          {
+            "Item": "Conflagrant Sac",
+            "Frecuency": 3,
+            "NotOwn": true
+          },
+          {
+            "Item": "Rath Gleam",
+            "Frecuency": 3
+          }
+        ],
+        "Special": [
+          {
+            "Condition": "Dropped",
+            "Items": [ "{0} Shard" ]
+          },
+          {
+            "Condition": "Head Broken",
+            "Items": [ "{0} Cortex", "Rathalos Mantle" ]
+          },
+          {
+            "Condition": "Wings Broken",
+            "Items": [ "{0} Fellwing" ]
+          },
+          {
+            "Condition": "Back Broken",
+            "Items": [ "{0} Cortex", "Rathalos Mantle" ]
+          },
+          {
+            "Condition": "Tail Carved",
+            "Items": [ "{0} Lash", "Rathalos Mantle" ]
+          }
+        ]
+      }
+    ],
+    "GuidingLands": {
+      "Regions": [
+        {
+          "Name": "Coral",
+          "LevelFrecuency": [
+            [ 6, 3 ]
+          ],
+          "TemperedFrecuency": [
+            [ 7, 3 ]
+          ]
+        }
+      ],
+      "Obtenibles": [
+        {
+          "Item": "Dragonvein Solidbone",
+          "Frecuency": 5
+        },
+        {
+          "Item": "Scorching Scale",
+          "Frecuency": 4
+        }
+      ],
+      "ObteniblesTempered": [
+        {
+          "Item": "Spiritvein Solidbone",
+          "Frecuency": 4
+        },
+        {
+          "Item": "Tempered Silver Scale",
+          "Frecuency": 5
+        },
+        {
+          "Item": "Great Spiritvein Gem",
+          "Frecuency": 1
         }
       ]
     }
@@ -347,17 +615,19 @@
       "Regions": [
         {
           "Name": "Wildspire",
-          "Level": 6,
-          "Frecuency": 3,
-          "LevelTempered": 7,
-          "FrecuencyTempered": 1
+          "LevelFrecuency": [
+            [ 5, 3 ],
+            [ 6, 2 ]
+          ],
+          "TemperedFrecuency": [ [ 7, 2 ] ]
         },
         {
           "Name": "Coral",
-          "Level": 6,
-          "Frecuency": 2,
-          "LevelTempered": 7,
-          "FrecuencyTempered": 2
+          "LevelFrecuency": [
+            [ 5, 3 ],
+            [ 6, 2 ]
+          ],
+          "TemperedFrecuency": [ [ 7, 2 ] ]
         }
       ],
       "Obtenibles": [
