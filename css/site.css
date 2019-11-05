@@ -59,6 +59,10 @@ body {
     line-height: 60px; /* Vertically center the text there */
 }
 
+.text-purple {
+    color: rebeccapurple;
+}
+
 .w-33 {
     width: 33% !important;
 }
