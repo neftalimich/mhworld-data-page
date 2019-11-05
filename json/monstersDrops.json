@@ -103,7 +103,7 @@
             "Items": [ "Hardhorn" ]
           },
           {
-            "Condition": "Frelegs Broken",
+            "Condition": "Forelegs Broken",
             "Items": [ "Hardclaw" ]
           },
           {
@@ -145,6 +145,118 @@
       "ObteniblesTempered": [
         {
           "Item": "",
+          "Frecuency": 0
+        }
+      ]
+    }
+  },
+  {
+    "Id": "ruinerNergigante",
+    "Drops": [
+      {
+        "Rank": "Master",
+        "Carves": [
+          {
+            "Item": "Inmortal Shard",
+            "Frecuency": 5
+          },
+          {
+            "Item": "{0} Cortex",
+            "Frecuency": 4
+          },
+          {
+            "Item": "{0} Hardclaw",
+            "Frecuency": 3
+          },
+          {
+            "Item": "Annihilating Greathorn",
+            "Frecuency": 2
+          },
+          {
+            "Item": "Eternal Regrowth Plate",
+            "Frecuency": 3
+          }
+        ],
+        "Rewards": [
+          {
+            "Item": "{0} Cortex",
+            "Frecuency": 4
+          },
+          {
+            "Item": "Inmortal Shard",
+            "Frecuency": 4
+          },
+          {
+            "Item": "Eternal Regrowth Plate",
+            "Frecuency": 3
+          },
+          {
+            "Item": "{0} Flail",
+            "Frecuency": 3
+          },
+          {
+            "Item": "Elder Dragonvein Bone",
+            "Frecuency": 1,
+            "NotOwn": true
+          },
+          {
+            "Item": "Large Elder Dragon Bone",
+            "Frecuency": 3,
+            "NotOwn": true
+          },
+          {
+            "Item": "Pure Elder Dragon Bone",
+            "Frecuency": 2,
+            "NotOwn": true
+          }
+        ],
+        "Special": [
+          {
+            "Condition": "Dropped",
+            "Items": [ "Eternal Regrowth Plate" ]
+          },
+          {
+            "Condition": "Horn Broken (1st time)",
+            "Items": [ "Annihilating Greathorn" ]
+          },
+          {
+            "Condition": "Horn Broken (2nd time)",
+            "Items": [ "Annihilating Greathorn" ]
+          },
+          {
+            "Condition": "Forelegs Broken",
+            "Items": [ "{0} Hardclaw" ]
+          },
+          {
+            "Condition": "Wings Broken",
+            "Items": [ "{0} Cortex" ]
+          },
+          {
+            "Condition": "Tail Severed",
+            "Items": [ "{0} Flail" ]
+          }
+        ]
+      }
+    ],
+    "GuidingLands": {
+      "Regions": [
+        {
+          "Name": "",
+          "Level": 0,
+          "Frecuency": 0,
+          "LevelTempered": 0,
+          "FrecuencyTempered": 0
+        }
+      ],
+      "Obtenibles": [
+        {
+          "Item": "{0} ",
+          "Frecuency": 0
+        }
+      ],
+      "ObteniblesTempered": [
+        {
+          "Item": "{0} ",
           "Frecuency": 0
         }
       ]
@@ -214,19 +326,19 @@
         "Special": [
           {
             "Condition": "Dropped",
-            "Items": [ "Hardclaw" ]
+            "Items": [ "{0} Hardclaw" ]
           },
           {
             "Condition": "Head Broken",
-            "Items": [ "Crownhorn", "Crystal" ]
+            "Items": [ "{0} Crownhorn", "{0} Crystal" ]
           },
           {
             "Condition": "Wings Broken",
-            "Items": [ "Fellwing" ]
+            "Items": [ "{0} Fellwing" ]
           },
           {
             "Condition": "Tail Carved",
-            "Items": [ "Lash", "Crystal" ]
+            "Items": [ "{0} Lash", "{0} Crystal" ]
           }
         ]
       }

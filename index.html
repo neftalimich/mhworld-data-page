@@ -433,7 +433,7 @@
                                                     <td>{{special.Condition}}</td>
                                                     <td>
                                                         <span v-for="(item, index) in special.Items">
-                                                            {{monsterSelected.Name}} {{item}}
+                                                            {{item.replace('{0}',monsterSelected.Name)}}
                                                             <br v-if="index < special.Items.length - 1" />
                                                         </span>
                                                     </td>
