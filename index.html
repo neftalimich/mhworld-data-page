@@ -313,57 +313,59 @@
                                     Sorry, there is no data.
                                     If you want to collaborate send the data by DM to <a href="https://twitter.com/MHWorldBuilder"> MHWorldBuilder</a>.
                                     Template:<br />
-                                    <code>
-                                        {
-                                        "Id": "dummy",
-                                        "Drops": [
-                                        {
-                                        "Rank": "Low",
-                                        "Carves": [
-                                        {
-                                        "Item": "{0} ",
-                                        "Frecuency": 0
-                                        }
-                                        ],
-                                        "Rewards": [
-                                        {
-                                        "Item": "{0} ",
-                                        "Frecuency": 0
-                                        }
-                                        ],
-                                        "Special": [
-                                        {
-                                        "Condition": "",
-                                        "Items": [ "" ]
-                                        }
-                                        ]
-                                        }
-                                        ],
-                                        "GuidingLands": {
-                                        "Regions": [
-                                        {
-                                        "Name": "",
-                                        "Level": 0,
-                                        "Frecuency": 0,
-                                        "LevelTempered": 0,
-                                        "FrecuencyTempered": 0
-                                        }
-                                        ],
-                                        "Obtenibles": [
-                                        {
-                                        "Item": "{0} ",
-                                        "Frecuency": 0
-                                        }
-                                        ],
-                                        "ObteniblesTempered": [
-                                        {
-                                        "Item": "{0} ",
-                                        "Frecuency": 0
-                                        }
-                                        ]
-                                        }
-                                        }
-                                    </code>
+                                             <code>
+                                                 {
+                                                 "Id": "dummy",
+                                                 "Drops": [
+                                                 {
+                                                 "Rank": "Low",
+                                                 "Carves": [
+                                                 {
+                                                 "Item": "{0} ",
+                                                 "Frecuency": 0
+                                                 }
+                                                 ],
+                                                 "Rewards": [
+                                                 {
+                                                 "Item": "{0} ",
+                                                 "Frecuency": 0
+                                                 }
+                                                 ],
+                                                 "Special": [
+                                                 {
+                                                 "Condition": "",
+                                                 "Items": [ "{0} " ]
+                                                 }
+                                                 ]
+                                                 }
+                                                 ],
+                                                 "GuidingLands": {
+                                                 "Regions": [
+                                                 {
+                                                 "Name": "",
+                                                 "LevelFrecuency": [
+                                                 [ 0, 0 ]
+                                                 ],
+                                                 "TemperedFrecuency": [
+                                                 [ 0, 0 ]
+                                                 ]
+                                                 }
+                                                 ],
+                                                 "Obtenibles": [
+                                                 {
+                                                 "Item": "{0} ",
+                                                 "Frecuency": 0
+                                                 }
+                                                 ],
+                                                 "ObteniblesTempered": [
+                                                 {
+                                                 "Item": "{0} ",
+                                                 "Frecuency": 0
+                                                 }
+                                                 ]
+                                                 }
+                                                 }
+                                             </code>
                                 </div>
                                 <div v-else>
                                     <span class="c-pointer" v-bind:class="{'text-muted':dropIndex != index || showGL}" v-for="(drop, index) in dropSelected.Drops" v-on:click="SelectDropIndex(index)">
@@ -457,6 +459,9 @@
                                                 <tr v-for="(drop, index) in dropSelected.GuidingLands.Obtenibles">
                                                     <td>
                                                         {{drop.Item}}
+                                                        <span v-if="drop.LevelRange">
+                                                            ({{drop.LevelRange[0]}}-{{drop.LevelRange[1]}})
+                                                        </span>
                                                     </td>
                                                     <td>
                                                         <span v-for="(item, index) in drop.Frecuency">
@@ -466,7 +471,7 @@
                                                 </tr>
                                             </tbody>
                                         </table>
-                                        <table class="table table-striped">
+                                        <table class="table table-striped" v-if="dropSelected.GuidingLands.ObteniblesTempered">
                                             <thead class="thead-dark">
                                                 <tr>
                                                     <th colspan="2" class="text-center">Obtenibles Tempered</th>
@@ -478,7 +483,12 @@
                                             </thead>
                                             <tbody>
                                                 <tr v-for="(drop, index) in dropSelected.GuidingLands.ObteniblesTempered">
-                                                    <td>{{drop.Item}}</td>
+                                                    <td>
+                                                        {{drop.Item}}
+                                                        <span v-if="drop.LevelRange">
+                                                            ({{drop.LevelRange[0]}}-{{drop.LevelRange[1]}})
+                                                        </span>
+                                                    </td>
                                                     <td>
                                                         <span v-for="(item, index) in drop.Frecuency">
                                                             <i class="fas fa-star text-warning"></i>

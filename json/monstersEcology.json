@@ -156,9 +156,9 @@
   {
     "Id": "greatJagras",
     "Crowns": [ 998.69, 1276.11, 1364.88 ],
-    "Habitats": [ "" ],
-    "Characteristics": "",
-    "Information": ""
+    "Habitats": [ "Ancient Forest" ],
+    "Characteristics": "The pack leader of the Jagras. When hungry, Great Jagras are know to attack monsters even stronger tha themselves. It balloons to unbelievable proportions after swallowing prey.",
+    "Information": "Even after a giant meal, a Great Jagras can use its expandend stomach to attack unsuspecting hunters. Aim for its belly to force it to vomit out its prey and significantly weaken it."
   },
   {
     "Id": "jyuratodus",
@@ -177,9 +177,9 @@
   {
     "Id": "kuluYaKu",
     "Crowns": [ 811.12, 1036.43, 1108.53 ],
-    "Habitats": [ "" ],
-    "Characteristics": "",
-    "Information": ""
+    "Habitats": [ "Ancient Forest", "Wildspire Waste" ],
+    "Characteristics": "An odd bird wyvern that has developed limbs capable of carrying weapons. It's been spotte stealing eggs from nests foun in the Ancient Forest and Wildspire Waste.",
+    "Information": "Kulu-Ya-Ku use small boulders to shield itself or smash against its enemies. Forece it to drop whatever it's holding by using your slinger. You can also frighten it by luring one of its natural enemies."
   },
   {
     "Id": "kulveTaroth",

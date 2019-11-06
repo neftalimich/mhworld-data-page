@@ -19,7 +19,7 @@
         "Special": [
           {
             "Condition": "",
-            "Items": [ "" ]
+            "Items": [ "{0} " ]
           }
         ]
       }
@@ -170,6 +170,460 @@
         {
           "Item": "Great Spiritvein Gem",
           "Frecuency": 1
+        }
+      ]
+    }
+  },
+  {
+    "Id": "greatJagras",
+    "Drops": [
+      {
+        "Rank": "Low",
+        "Carves": [
+          {
+            "Item": "{0} Scale",
+            "Frecuency": 5
+          },
+          {
+            "Item": "{0} Hide",
+            "Frecuency": 4
+          },
+          {
+            "Item": "{0} Mane",
+            "Frecuency": 3
+          },
+          {
+            "Item": "{0} Claw",
+            "Frecuency": 4
+          }
+        ],
+        "Rewards": [
+          {
+            "Item": "{0} Hide",
+            "Frecuency": 5
+          },
+          {
+            "Item": "{0} Scale",
+            "Frecuency": 4
+          },
+          {
+            "Item": "{0} Mane",
+            "Frecuency": 3
+          },
+          {
+            "Item": "{0} Claw",
+            "Frecuency": 2
+          },
+          {
+            "Item": "Iron Ore",
+            "Frecuency": 3,
+            "NotOwn": true
+          },
+          {
+            "Item": "Monster Bone S",
+            "Frecuency": 3,
+            "NotOwn": true
+          }
+        ],
+        "Special": [
+          {
+            "Condition": "Dropped",
+            "Items": [ "{0} Claw" ]
+          },
+          {
+            "Condition": "Head Broken",
+            "Items": [ "{0} Mane" ]
+          },
+          {
+            "Condition": "Chest Broken",
+            "Items": [ "{0} Hide" ]
+          },
+          {
+            "Condition": "Forelegs Broken",
+            "Items": [ "{0} Claw" ]
+          }
+        ]
+      },
+      {
+        "Rank": "High",
+        "Carves": [
+          {
+            "Item": "{0} Scale+",
+            "Frecuency": 5
+          },
+          {
+            "Item": "{0} Hide+",
+            "Frecuency": 4
+          },
+          {
+            "Item": "{0} Mane",
+            "Frecuency": 3
+          },
+          {
+            "Item": "{0} Claw+",
+            "Frecuency": 4
+          }
+        ],
+        "Rewards": [
+          {
+            "Item": "{0} Hide+",
+            "Frecuency": 5
+          },
+          {
+            "Item": "{0} Scale+",
+            "Frecuency": 4
+          },
+          {
+            "Item": "{0} Mane",
+            "Frecuency": 3
+          },
+          {
+            "Item": "{0} Claw+",
+            "Frecuency": 2
+          },
+          {
+            "Item": "Iron Ore",
+            "Frecuency": 3,
+            "NotOwn": true
+          },
+          {
+            "Item": "Monster Bone+",
+            "Frecuency": 3,
+            "NotOwn": true
+          }
+        ],
+        "Special": [
+          {
+            "Condition": "Dropped",
+            "Items": [ "{0} Claw+" ]
+          },
+          {
+            "Condition": "Head Broken",
+            "Items": [ "{0} Mane" ]
+          },
+          {
+            "Condition": "Chest Broken",
+            "Items": [ "{0} Hide+" ]
+          },
+          {
+            "Condition": "Forelegs Broken",
+            "Items": [ "{0} Claw+" ]
+          }
+        ]
+      },
+      {
+        "Rank": "Master",
+        "Carves": [
+          {
+            "Item": "{0} Thickhide",
+            "Frecuency": 4
+          },
+          {
+            "Item": "{0} Shard",
+            "Frecuency": 5
+          },
+          {
+            "Item": "{0} Mane+",
+            "Frecuency": 3
+          },
+          {
+            "Item": "{0} Hardclaw",
+            "Frecuency": 4
+          }
+        ],
+        "Rewards": [
+          {
+            "Item": "{0} Thickhide",
+            "Frecuency": 5
+          },
+          {
+            "Item": "{0} Shard",
+            "Frecuency": 4
+          },
+          {
+            "Item": "{0} Mane+",
+            "Frecuency": 3
+          },
+          {
+            "Item": "{0} Hardclaw",
+            "Frecuency": 2
+          },
+          {
+            "Item": "Monster Thoughbone",
+            "Frecuency": 4,
+            "NotOwn": true
+          }
+        ],
+        "Special": [
+          {
+            "Condition": "Dropped",
+            "Items": [ "{0} Shard" ]
+          },
+          {
+            "Condition": "Head Broken",
+            "Items": [ "{0} Mane+" ]
+          },
+          {
+            "Condition": "Chest Broken",
+            "Items": [ "{0} Thickhide" ]
+          },
+          {
+            "Condition": "Forelegs Broken",
+            "Items": [ "{0} Hardclaw" ]
+          }
+        ]
+      }
+    ],
+    "GuidingLands": {
+      "Regions": [
+        {
+          "Name": "Forest",
+          "LevelFrecuency": [
+            [ 1, 3 ],
+            [ 2, 3 ],
+            [ 3, 2 ],
+            [ 4, 1 ],
+            [ 5, 1 ],
+            [ 6, 1 ],
+            [ 7, 1 ]
+          ]
+        }
+      ],
+      "Obtenibles": [
+        {
+          "Item": "Fierce Dragonvein Bone",
+          "Frecuency": 4,
+          "LevelRange": [ 1, 3 ]
+        },
+        {
+          "Item": "Rugged Mane",
+          "Frecuency": 5
+        }
+      ]
+    }
+  },
+  {
+    "Id": "kuluYaKu",
+    "Drops": [
+      {
+        "Rank": "Low",
+        "Carves": [
+          {
+            "Item": "{0} Scale",
+            "Frecuency": 5
+          },
+          {
+            "Item": "{0} Hide",
+            "Frecuency": 4
+          },
+          {
+            "Item": "{0} Plume",
+            "Frecuency": 3
+          },
+          {
+            "Item": "{0} Beak",
+            "Frecuency": 4
+          }
+        ],
+        "Rewards": [
+          {
+            "Item": "{0} Hide",
+            "Frecuency": 5
+          },
+          {
+            "Item": "{0} Scale",
+            "Frecuency": 4
+          },
+          {
+            "Item": "{0} Plume",
+            "Frecuency": 3
+          },
+          {
+            "Item": "{0} Beak",
+            "Frecuency": 2
+          },
+          {
+            "Item": "Monster Bone S",
+            "Frecuency": 4,
+            "NotOwn": true
+          }
+        ],
+        "Special": [
+          {
+            "Condition": "Dropped",
+            "Items": [ "{0} Plume" ]
+          },
+          {
+            "Condition": "Head Broken",
+            "Items": [ "{0} Beak" ]
+          },
+          {
+            "Condition": "Forelegs Broken",
+            "Items": [ "{0} Plume" ]
+          }
+        ]
+      },
+      {
+        "Rank": "High",
+        "Carves": [
+          {
+            "Item": "{0} Scale+",
+            "Frecuency": 5
+          },
+          {
+            "Item": "{0} Hide+",
+            "Frecuency": 4
+          },
+          {
+            "Item": "{0} Plume+",
+            "Frecuency": 3
+          },
+          {
+            "Item": "{0} Beak+",
+            "Frecuency": 4
+          },
+          {
+            "Item": "Bird Wyvern Gem",
+            "Frecuency": 1,
+            "NotOwn": true
+          }
+        ],
+        "Rewards": [
+          {
+            "Item": "{0} Hide+",
+            "Frecuency": 5
+          },
+          {
+            "Item": "{0} Scale+",
+            "Frecuency": 4
+          },
+          {
+            "Item": "{0} Plume+",
+            "Frecuency": 3
+          },
+          {
+            "Item": "{0} Beak+",
+            "Frecuency": 3
+          },
+          {
+            "Item": "Monster Bone +",
+            "Frecuency": 3,
+            "NotOwn": true
+          },
+          {
+            "Item": "Bird Wyvern Gem",
+            "Frecuency": 1,
+            "NotOwn": true
+          }
+        ],
+        "Special": [
+          {
+            "Condition": "Dropped",
+            "Items": [ "{0} Plume+" ]
+          },
+          {
+            "Condition": "Head Broken",
+            "Items": [ "{0} Beak+" ]
+          },
+          {
+            "Condition": "Forelegs Broken",
+            "Items": [ "{0} Plume+" ]
+          }
+        ]
+      },
+      {
+        "Rank": "Master",
+        "Carves": [
+          {
+            "Item": "{0} Shard",
+            "Frecuency": 5
+          },
+          {
+            "Item": "{0} Tickhide",
+            "Frecuency": 4
+          },
+          {
+            "Item": "Large {0} Plume",
+            "Frecuency": 3
+          },
+          {
+            "Item": "Large {0} Beak",
+            "Frecuency": 4
+          },
+          {
+            "Item": "Fey Wyvern Gem",
+            "Frecuency": 1,
+            "NotOwn": true
+          }
+        ],
+        "Rewards": [
+          {
+            "Item": "{0} Hide",
+            "Frecuency": 5
+          },
+          {
+            "Item": "{0} Scale",
+            "Frecuency": 4
+          },
+          {
+            "Item": "{0} Plume",
+            "Frecuency": 3
+          },
+          {
+            "Item": "{0} Beak",
+            "Frecuency": 3
+          },
+          {
+            "Item": "Monster Toughbone",
+            "Frecuency": 3,
+            "NotOwn": true
+          },
+          {
+            "Item": "Fey Wyvern Gem",
+            "Frecuency": 1,
+            "NotOwn": true
+          }
+        ],
+        "Special": [
+          {
+            "Condition": "Dropped",
+            "Items": [ "{0} Shard" ]
+          },
+          {
+            "Condition": "Head Broken",
+            "Items": [ "Large {0} Beak" ]
+          },
+          {
+            "Condition": "Forelegs Broken",
+            "Items": [ "Large {0} Plume" ]
+          }
+        ]
+      }
+    ],
+    "GuidingLands": {
+      "Regions": [
+        {
+          "Name": "Wildspire",
+          "LevelFrecuency": [
+            [ 1, 3 ],
+            [ 2, 3 ],
+            [ 3, 2 ],
+            [ 4, 1 ],
+            [ 5, 1 ],
+            [ 6, 1 ],
+            [ 7, 1 ]
+          ]
+        }
+      ],
+      "Obtenibles": [
+        {
+          "Item": "Fierce Dragonvein Bone",
+          "Frecuency": 4,
+          "LevelRange": [ 1, 3 ]
+        },
+        {
+          "Item": "Colorful Plume",
+          "Frecuency": 5
         }
       ]
     }
